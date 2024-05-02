@@ -1,0 +1,38 @@
+.header-section {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  padding: 20px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  width: 50%;
+}
+.nav-icon-section {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  gap: 60px;
+  align-items: center;
+}
+.search-bar-section {
+  position: relative;
+}
+.search-bar-section img {
+  position: absolute;
+  left: 90%;
+  top: 30%;
+}
+.search-bar-section input {
+  width: 450px;
+  height: 64px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border: none;
+  padding: 0px 20px;
+  font-size: 16px;
+  list-style: 24px;
+}
+.search-bar-section input:focus {
+  outline: none;
+}
